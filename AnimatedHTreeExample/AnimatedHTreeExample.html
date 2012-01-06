@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Animated HTree Example</title>
+  </head>
+  <body>
+    <h1>Animated HTree Example</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div> 
+    <table>
+    	<tr>
+	    	<td>
+	    	<p>Number of Iterations </p>
+	    	</td>
+	    	
+	    	<td>
+	    	<p>Draw Speed</p>
+	    	</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<input id="iterationsInput" value="5" min="0" type="number" />
+    		</td>
+    	
+    		<td>
+    			<input id="drawSpeedInput"
+			      value="25"
+			      min="1"
+			      max="1000"
+			      type="number" />
+    		</td>
+    		
+    		<td>
+    			<button id="stopStart" value="Stop" name="Stop">Start</button> 
+    		</td>
+    		<!--
+    		<td>
+    			<button id="Next" value="Next" name="Next">Next</button>
+    		</td>
+    		-->
+    	</tr>
+    	</table>
+    </div>
+    <script type="text/javascript" src="AnimatedHTreeExample.dart.app.js"></script>
+  </body>
+</html>
